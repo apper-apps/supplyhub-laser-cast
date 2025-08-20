@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "supplierId": 1,
+    "plan": "Premium",
+    "amount": 300.00,
+    "billingCycle": "monthly",
+    "status": "active",
+    "nextBillingDate": "2024-03-15T00:00:00Z"
+  },
+  {
+    "Id": 2,
+    "supplierId": 2,
+    "plan": "Standard",
+    "amount": 300.00,
+    "billingCycle": "monthly",
+    "status": "active",
+    "nextBillingDate": "2024-03-20T00:00:00Z"
+  },
+  {
+    "Id": 3,
+    "supplierId": 3,
+    "plan": "Basic",
+    "amount": 300.00,
+    "billingCycle": "monthly",
+    "status": "active",
+    "nextBillingDate": "2024-03-25T00:00:00Z"
+  }
+]

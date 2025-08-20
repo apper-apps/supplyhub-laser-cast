@@ -1,0 +1,123 @@
+[
+  {
+    "Id": 1,
+    "buyerId": 4,
+    "buyerName": "TechCorp Solutions",
+    "supplierId": 1,
+    "items": [
+      {
+        "productId": 1,
+        "name": "Industrial Ball Bearings Set",
+        "quantity": 10,
+        "price": 89.99,
+        "image": "/api/placeholder/60/60"
+      },
+      {
+        "productId": 2,
+        "name": "Heavy Duty Motor Assembly",
+        "quantity": 2,
+        "price": 1250.00,
+        "image": "/api/placeholder/60/60"
+      }
+    ],
+    "subtotal": 3399.90,
+    "commission": 101.99,
+    "total": 3501.89,
+    "status": "delivered",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "buyerId": 5,
+    "buyerName": "RetailStore Inc",
+    "supplierId": 2,
+    "items": [
+      {
+        "productId": 3,
+        "name": "Automotive Brake Pads",
+        "quantity": 20,
+        "price": 45.99,
+        "image": "/api/placeholder/60/60"
+      }
+    ],
+    "subtotal": 919.80,
+    "commission": 27.59,
+    "total": 947.39,
+    "status": "shipped",
+    "createdAt": "2024-01-18T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "buyerId": 4,
+    "buyerName": "TechCorp Solutions",
+    "supplierId": 3,
+    "items": [
+      {
+        "productId": 5,
+        "name": "Circuit Board Assembly",
+        "quantity": 5,
+        "price": 275.00,
+        "image": "/api/placeholder/60/60"
+      },
+      {
+        "productId": 6,
+        "name": "Power Supply Module",
+        "quantity": 8,
+        "price": 95.00,
+        "image": "/api/placeholder/60/60"
+      }
+    ],
+    "subtotal": 2135.00,
+    "commission": 64.05,
+    "total": 2199.05,
+    "status": "processing",
+    "createdAt": "2024-01-20T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "buyerId": 5,
+    "buyerName": "RetailStore Inc",
+    "supplierId": 1,
+    "items": [
+      {
+        "productId": 7,
+        "name": "Hydraulic Cylinder",
+        "quantity": 3,
+        "price": 890.00,
+        "image": "/api/placeholder/60/60"
+      }
+    ],
+    "subtotal": 2670.00,
+    "commission": 80.10,
+    "total": 2750.10,
+    "status": "pending",
+    "createdAt": "2024-01-22T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "buyerId": 4,
+    "buyerName": "TechCorp Solutions",
+    "supplierId": 2,
+    "items": [
+      {
+        "productId": 4,
+        "name": "LED Lighting Kit",
+        "quantity": 12,
+        "price": 125.50,
+        "image": "/api/placeholder/60/60"
+      },
+      {
+        "productId": 8,
+        "name": "Safety Equipment Kit",
+        "quantity": 5,
+        "price": 180.00,
+        "image": "/api/placeholder/60/60"
+      }
+    ],
+    "subtotal": 2406.00,
+    "commission": 72.18,
+    "total": 2478.18,
+    "status": "delivered",
+    "createdAt": "2024-01-25T11:30:00Z"
+  }
+]

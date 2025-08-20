@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "userId": 2,
+    "companyInfo": {
+      "name": "ACME Manufacturing",
+      "address": "123 Industrial Blvd, Manufacturing City, MC 12345",
+      "phone": "+1-555-0100",
+      "website": "www.acme-mfg.com",
+      "description": "Leading manufacturer of industrial components and machinery parts with over 20 years of experience."
+    },
+    "subscriptionStatus": "active",
+    "subscriptionTier": "Premium",
+    "joinedAt": "2023-02-10T09:30:00Z"
+  },
+  {
+    "Id": 2,
+    "userId": 3,
+    "companyInfo": {
+      "name": "Global Parts Co",
+      "address": "456 Supply Chain Ave, Logistics Hub, LH 67890",
+      "phone": "+1-555-0200",
+      "website": "www.globalparts.com",
+      "description": "International supplier of automotive and electronic components with worldwide distribution network."
+    },
+    "subscriptionStatus": "active",
+    "subscriptionTier": "Standard",
+    "joinedAt": "2023-02-15T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "userId": 6,
+    "companyInfo": {
+      "name": "TechParts Solutions",
+      "address": "789 Tech Park Dr, Silicon Valley, SV 54321",
+      "phone": "+1-555-0300",
+      "website": "www.techparts.com",
+      "description": "Specialized supplier of high-tech electronic components and semiconductor devices."
+    },
+    "subscriptionStatus": "trial",
+    "subscriptionTier": "Basic",
+    "joinedAt": "2023-03-20T12:00:00Z"
+  }
+]

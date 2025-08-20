@@ -1,0 +1,206 @@
+[
+  {
+    "Id": 1,
+    "supplierId": 1,
+    "supplierName": "ACME Manufacturing",
+    "name": "Industrial Ball Bearings Set",
+    "category": "Industrial Components",
+    "price": 89.99,
+    "stock": 450,
+    "description": "High-quality steel ball bearings suitable for industrial machinery. Precision engineered for durability and smooth operation.",
+    "specifications": {
+      "material": "Stainless Steel",
+      "diameter": "25mm",
+      "load_capacity": "500kg",
+      "temperature_range": "-40°C to 120°C"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 2,
+    "supplierId": 1,
+    "supplierName": "ACME Manufacturing",
+    "name": "Heavy Duty Motor Assembly",
+    "category": "Motors & Drives",
+    "price": 1250.00,
+    "stock": 25,
+    "description": "Powerful electric motor assembly for industrial applications. Energy-efficient design with variable speed control.",
+    "specifications": {
+      "power": "5HP",
+      "voltage": "220V/440V",
+      "rpm": "1800",
+      "efficiency": "92%"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 3,
+    "supplierId": 2,
+    "supplierName": "Global Parts Co",
+    "name": "Automotive Brake Pads",
+    "category": "Automotive Parts",
+    "price": 45.99,
+    "stock": 200,
+    "description": "Premium brake pads compatible with multiple vehicle models. Excellent stopping power and long-lasting performance.",
+    "specifications": {
+      "material": "Ceramic Composite",
+      "thickness": "12mm",
+      "compatibility": "Multiple Models",
+      "warranty": "24 months"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 4,
+    "supplierId": 2,
+    "supplierName": "Global Parts Co",
+    "name": "LED Lighting Kit",
+    "category": "Electronics",
+    "price": 125.50,
+    "stock": 75,
+    "description": "Energy-efficient LED lighting solution for commercial and industrial spaces. Long lifespan and low maintenance.",
+    "specifications": {
+      "wattage": "50W",
+      "lumens": "5000lm",
+      "color_temperature": "4000K",
+      "lifespan": "50000 hours"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 5,
+    "supplierId": 3,
+    "supplierName": "TechParts Solutions",
+    "name": "Circuit Board Assembly",
+    "category": "Electronics",
+    "price": 275.00,
+    "stock": 150,
+    "description": "Custom circuit board assembly for electronic devices. High-quality components and precise manufacturing.",
+    "specifications": {
+      "layers": "4-layer PCB",
+      "dimensions": "100x80mm",
+      "components": "SMD/THT",
+      "testing": "100% Tested"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 6,
+    "supplierId": 3,
+    "supplierName": "TechParts Solutions",
+    "name": "Power Supply Module",
+    "category": "Electronics",
+    "price": 95.00,
+    "stock": 320,
+    "description": "Reliable switching power supply module with multiple output voltages. Compact design with high efficiency.",
+    "specifications": {
+      "input_voltage": "100-240V AC",
+      "output_voltage": "12V, 24V DC",
+      "power_rating": "100W",
+      "efficiency": "85%"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 7,
+    "supplierId": 1,
+    "supplierName": "ACME Manufacturing",
+    "name": "Hydraulic Cylinder",
+    "category": "Industrial Components",
+    "price": 890.00,
+    "stock": 35,
+    "description": "Heavy-duty hydraulic cylinder for industrial machinery. Designed for high-pressure applications with long service life.",
+    "specifications": {
+      "bore_diameter": "100mm",
+      "stroke_length": "300mm",
+      "working_pressure": "210 bar",
+      "mounting": "Clevis Mount"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 8,
+    "supplierId": 2,
+    "supplierName": "Global Parts Co",
+    "name": "Safety Equipment Kit",
+    "category": "Safety & Security",
+    "price": 180.00,
+    "stock": 95,
+    "description": "Comprehensive safety equipment kit including helmets, gloves, and protective eyewear for industrial work environments.",
+    "specifications": {
+      "helmet_standard": "ANSI Z89.1",
+      "glove_material": "Cut-resistant Kevlar",
+      "eyewear": "Impact-resistant",
+      "kit_size": "Standard"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 9,
+    "supplierId": 1,
+    "supplierName": "ACME Manufacturing",
+    "name": "Conveyor Belt System",
+    "category": "Material Handling",
+    "price": 2500.00,
+    "stock": 8,
+    "description": "Modular conveyor belt system for warehouse and manufacturing applications. Easy installation and maintenance.",
+    "specifications": {
+      "length": "10 meters",
+      "width": "600mm",
+      "load_capacity": "100kg/m",
+      "speed": "Variable"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 10,
+    "supplierId": 3,
+    "supplierName": "TechParts Solutions",
+    "name": "Temperature Sensor Array",
+    "category": "Electronics",
+    "price": 65.00,
+    "stock": 180,
+    "description": "Precision temperature sensor array for monitoring applications. High accuracy and digital output interface.",
+    "specifications": {
+      "sensor_count": "8 sensors",
+      "accuracy": "±0.5°C",
+      "range": "-55°C to 125°C",
+      "interface": "I2C Digital"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 11,
+    "supplierId": 2,
+    "supplierName": "Global Parts Co",
+    "name": "Industrial Lubricants Set",
+    "category": "Chemicals & Lubricants",
+    "price": 150.00,
+    "stock": 60,
+    "description": "Premium industrial lubricants for machinery maintenance. Extends equipment life and improves performance.",
+    "specifications": {
+      "viscosity": "ISO VG 32",
+      "volume": "20 liters",
+      "temperature_range": "-30°C to 150°C",
+      "additives": "Anti-wear, Anti-oxidant"
+    },
+    "images": ["/api/placeholder/400/400"]
+  },
+  {
+    "Id": 12,
+    "supplierId": 1,
+    "supplierName": "ACME Manufacturing",
+    "name": "Welding Equipment Package",
+    "category": "Tools & Equipment",
+    "price": 1850.00,
+    "stock": 15,
+    "description": "Professional welding equipment package including MIG welder, protective gear, and accessories.",
+    "specifications": {
+      "welder_type": "MIG/MAG",
+      "power": "200A",
+      "duty_cycle": "60%",
+      "includes": "Helmet, Gloves, Wire"
+    },
+    "images": ["/api/placeholder/400/400"]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "email": "admin@supplyhub.com",
+    "role": "admin",
+    "companyName": "SupplyHub Admin",
+    "createdAt": "2023-01-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "email": "acme@supply.com",
+    "role": "supplier",
+    "companyName": "ACME Manufacturing",
+    "createdAt": "2023-02-10T09:30:00Z"
+  },
+  {
+    "Id": 3,
+    "email": "globalparts@company.com",
+    "role": "supplier",
+    "companyName": "Global Parts Co",
+    "createdAt": "2023-02-15T14:20:00Z"
+  },
+  {
+    "Id": 4,
+    "email": "techcorp@buyer.com",
+    "role": "buyer",
+    "companyName": "TechCorp Solutions",
+    "createdAt": "2023-03-01T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "email": "retail@store.com",
+    "role": "buyer",
+    "companyName": "RetailStore Inc",
+    "createdAt": "2023-03-05T16:10:00Z"
+  }
+]
