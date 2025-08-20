@@ -188,8 +188,8 @@ const SupplierDashboardPage = () => {
             {products.slice(0, 5).map((product) => (
               <div key={product.Id} className="flex items-center justify-between p-4 bg-gray-50 rounded-card">
                 <div className="flex items-center gap-3">
-                  <img
-                    src={product.images?.[0] || "/api/placeholder/50/50"}
+<img
+                    src={product.images?.[0] || "https://picsum.photos/50/50"}
                     alt={product.name}
                     className="w-12 h-12 object-cover rounded"
                   />

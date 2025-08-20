@@ -38,8 +38,8 @@ const ProductCard = ({ product, className }) => {
       onClick={handleProductClick}
     >
       <div className="aspect-square bg-gray-100 relative overflow-hidden">
-        <img
-          src={product.images?.[0] || "/api/placeholder/300/300"}
+<img
+          src={product.images?.[0] || "https://picsum.photos/300/300"}
           alt={product.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
