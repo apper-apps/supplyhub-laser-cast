@@ -7,13 +7,14 @@ import CartPage from "@/components/pages/CartPage";
 import CheckoutPage from "@/components/pages/CheckoutPage";
 import OrdersPage from "@/components/pages/OrdersPage";
 import SupplierDashboardPage from "@/components/pages/SupplierDashboardPage";
+import ProductUploadPage from "@/components/pages/ProductUploadPage";
 import AdminDashboardPage from "@/components/pages/AdminDashboardPage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
+<Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<CatalogPage />} />
             <Route path="catalog" element={<CatalogPage />} />
@@ -22,6 +23,7 @@ function App() {
             <Route path="checkout" element={<CheckoutPage />} />
             <Route path="orders" element={<OrdersPage />} />
             <Route path="supplier-dashboard" element={<SupplierDashboardPage />} />
+            <Route path="upload-products" element={<ProductUploadPage />} />
             <Route path="admin-dashboard" element={<AdminDashboardPage />} />
           </Route>
         </Routes>

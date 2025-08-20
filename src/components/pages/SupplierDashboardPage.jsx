@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Card from "@/components/atoms/Card";
 import Button from "@/components/atoms/Button";
 import Badge from "@/components/atoms/Badge";
@@ -10,12 +11,12 @@ import { OrderService } from "@/services/api/orderService";
 import { SupplierService } from "@/services/api/supplierService";
 
 const SupplierDashboardPage = () => {
+  const navigate = useNavigate();
   const [products, setProducts] = useState([]);
   const [orders, setOrders] = useState([]);
   const [supplier, setSupplier] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-
   const loadDashboardData = async () => {
     try {
       setError("");
@@ -71,7 +72,7 @@ const SupplierDashboardPage = () => {
           <Badge variant={supplier?.subscriptionStatus === "active" ? "success" : "warning"}>
             {supplier?.subscriptionStatus === "active" ? "Active Subscription" : "Inactive"}
           </Badge>
-          <Button variant="primary">
+<Button variant="primary" onClick={() => navigate('/upload-products')}>
             <ApperIcon name="Plus" className="w-4 h-4 mr-2" />
             Add Product
           </Button>

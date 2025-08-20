@@ -28,9 +28,10 @@ const Header = () => {
   };
 
   const navItems = [
-    { label: "Catalog", path: "/catalog", roles: ["buyer", "supplier", "admin"] },
+{ label: "Catalog", path: "/catalog", roles: ["buyer", "supplier", "admin"] },
     { label: "Orders", path: "/orders", roles: ["buyer", "supplier", "admin"] },
     { label: "Supplier Dashboard", path: "/supplier-dashboard", roles: ["supplier"] },
+    { label: "Upload Products", path: "/upload-products", roles: ["supplier"] },
     { label: "Admin Dashboard", path: "/admin-dashboard", roles: ["admin"] },
   ];
 
